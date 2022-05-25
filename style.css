@@ -1,0 +1,285 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header {
+    background-color: rgba(32, 78, 78, 0.726);
+    width: 100%;
+    height: 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a>h1 {
+    text-align: center;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 40px;
+    margin-left: 200px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.div>i {
+    padding: 23px;
+    font-size: 30px;
+}
+
+.div>a {
+    font-size: 30px;
+    padding-right: 35px;
+}
+
+.container {
+    margin: 43px 43px;
+    margin-right: 140px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 200px;
+    height: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(108, 194, 195);
+}
+
+.container>aside>div {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.container>aside>div>a {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.container>aside>div>a:hover {
+    border: 2px solid black;
+    background-color: rgb(132, 248, 132);
+
+}
+
+.fa-solid {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.fa-solid:hover {
+    border: 2px solid black;
+    transition: calc(1.3);
+}
+
+.btn {
+    width: 160px;
+    margin-top: 90%;
+    background-color: rgb(201, 89, 89);
+    font-size: 20px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+section {
+    border: 2px solid black;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    background-color: rgb(108, 196, 207);
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 12%;
+    padding-top: 2%;
+}
+
+img {
+    border-radius: 40px;
+    padding-top: 100px;
+    padding-right: 80px;
+    width: 200px;
+    height: 100px;
+}
+img:hover{
+    transform: scale(1.5);
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.foot {
+    justify-content: space-between;
+
+}
+
+.foot>div {
+    align-items: flex-end;
+}
+
+
+.foot>div>a {
+    padding-left: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.foot>div>i {
+    font-size: 50px;
+    align-items: flex-end;
+    float: right;
+    padding-right: 40px;
+    color: white;
+}
